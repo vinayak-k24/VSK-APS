@@ -3,15 +3,22 @@ using namespace std;
 
 int LCS_Function()
 {
-    string str1,str2;   // Defining two strings
+   // Declaring two strings
+   string str1,str2;   
 
-    cin>>str1;          // Taking input strings
+    // Taking input strings
+    cout<<"Enter First String :"<<endl;
+    cin>>str1;
+    cout<<"Enter Second String :"<<endl;
     cin>>str2;
 
-    int len1=str1.size();   // Assigning the length of the strings to len1 and len2
+
+    // Assigning the length of the strings to len1 and len2
+    int len1=str1.size();   
     int len2=str2.size();
 
-    vector<vector <int>>  LCS(len1+1, vector<int>(len2+1,0)); //Initilizing the Matrix
+    //Declaring the Matrix
+    vector<vector <int>>  LCS(len1+1, vector<int>(len2+1,0)); 
 
     for(int i=1;i<=len1;i++)
     {
