@@ -11,7 +11,7 @@ int LCS_Function()
     cin>>str1;
     cout<<"Enter Second String :"<<endl;
     cin>>str2;
-    
+
     // Assigning the length of the strings to len1 and len2
     int len1=str1.size();   
     int len2=str2.size();
@@ -43,8 +43,7 @@ int LCS_Function()
 
 int main()
 {   
-    int Result=LCS_Function();
-    
+    int Result=LCS_Function();    
     cout<<"Longest Common Subsequence length = "<<Result;
 
     return 0;    
