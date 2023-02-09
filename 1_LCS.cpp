@@ -38,6 +38,7 @@ int LCS_Function()
 int main()
 {   
     int Result=LCS_Function();
+    
     cout<<"Longest Common Subsequence length = "<<Result;
 
     return 0;    
