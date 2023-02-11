@@ -1,8 +1,7 @@
 // APS 2023 Hand-out 01
 
 // What does the below code do ?
-
-// Generates all possible combinations of a given array of elements
+// Answer --> Generates all possible combinations of a given array of elements
 
 #include<bits\stdc++.h>
 using namespace std;
