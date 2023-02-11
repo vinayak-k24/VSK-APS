@@ -12,7 +12,7 @@ int main()
     int num[10000];
     int i,n,j,k,temp;
 
-    cout<<"Enter n";
+    cout<<"Enter n: ";
     cin>>n;
     cout<<endl;
 
