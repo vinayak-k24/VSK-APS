@@ -2,6 +2,8 @@
 
 // What does the below code do ?
 
+// Generates all possible combinations of a given array of elements
+
 #include<bits\stdc++.h>
 using namespace std;
 
