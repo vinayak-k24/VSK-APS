@@ -16,9 +16,9 @@ int main()
     // ios_base::sync_with_stdio(false);
     // cin.tie(NULL);
 
-    cout<<"Enter n value : ";
-    
     int n;
+
+    cout<<"Enter n value : ";
     cin>>n;
     int cost[n][n];
 
