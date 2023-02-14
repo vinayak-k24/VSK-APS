@@ -10,15 +10,15 @@ input
 
 #include<bits/stdc++.h>
 using namespace std;
-#define l0 long long
 
 int main()
 {
-    ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
+    // ios_base::sync_with_stdio(false);
+    // cin.tie(NULL);
 
-    int n;
     cout<<"Enter n value : ";
+    
+    int n;
     cin>>n;
     int cost[n][n];
 
@@ -54,6 +54,9 @@ int main()
             }
         }
     }
+
+
+    cout<<endl<<"DP values : "<<endl;
 
     for(int i=0;i<pow(2,n);i++)
     {
