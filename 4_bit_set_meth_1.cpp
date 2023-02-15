@@ -3,17 +3,15 @@ using namespace std;
 
 unsigned int countSetBits(unsigned int n)
 {
-    unsigned count=0;
+    unsigned int count=0;
 
-    while(n)
-    {
+    while(n) {
         count += n&1;
-        n>>1;
+        n>>=1;
     }
 
     return count;
 }
-
 
 int main()
 {
@@ -23,7 +21,9 @@ int main()
 
     unsigned int res=countSetBits(n);
 
-    cout<<"No of 1 bits / set bits in "<<n<<"is / are "<<res;
+    // cout<<"No of 1 bits / set bits in "<<n<<" is / are = "<<res;
+
+    cout<<"Set bits = "<<res;
 
     return 0;
 
