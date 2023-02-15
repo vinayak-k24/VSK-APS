@@ -1,3 +1,16 @@
+// Longest Common Subsequence
+
+/*
+Input -
+abcda
+bdabac
+*/
+
+/*
+Output -
+Longest Common Subsequence length = 3
+*/
+
 #include<bits/stdc++.h>
 using namespace std;
 
