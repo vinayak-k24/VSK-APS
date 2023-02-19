@@ -24,7 +24,7 @@ int main()
     cout<<"Enter the sum value :";
     cin>>sum;
 
-    vector<vector <int>> SS(n+1, vector<int>(sum+1));
+    vector<vector <int>> SS(n+1, vector<int>((sum+1),0));
 
     for(int j=0;j<sum+1;j++)
         SS[0][j]=0;
@@ -37,7 +37,7 @@ int main()
         for(int j=1;j<sum+1;j++)
         {
             if(SS[i-1][j] == 1)
-                SS[j][i] = 1;
+                SS[i][j] = 1;
 
             else if(elements[i-1] > j)
                 SS[i][j] = 0;
