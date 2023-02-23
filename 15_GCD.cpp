@@ -19,20 +19,21 @@ int main()
         b = tmp;
     }
 
-    for(int i=b;i>0;i--)
+    if(b % a != 0)
+            gcd=1;
+    else
     {
-        if(b % a != 0)
-            gcd=i;
-        
-        else if(a % i == 0 && b % i == 0)
+        for(int i=a;i>0;i--)
         {
+            if(a % i == 0 && b % i == 0)
+            {
             gcd=i;
             // cout<<"HAH";
             break;
+            }
         }
-            
     }
-
+    
     cout<<gcd;
     return 0;
 }
