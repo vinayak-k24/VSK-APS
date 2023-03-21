@@ -2,16 +2,16 @@
 
 // Output - GCD or HCF of two numbers
 
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 
 int main()
 {
-    int a,b;
-    cin>>a>>b;
+    int a, b;
+    cin >> a >> b;
     int gcd;
 
-    if(a>b)
+    if (a > b)
     {
         int tmp;
         tmp = a;
@@ -19,21 +19,21 @@ int main()
         b = tmp;
     }
 
-    if(b % a != 0)
-            gcd=1;
+    if (b % a != 0)
+        gcd = 1;
     else
     {
-        for(int i=a;i>0;i--)
+        for (int i = a; i > 0; i--)
         {
-            if(a % i == 0 && b % i == 0)
+            if (a % i == 0 && b % i == 0)
             {
-            gcd=i;
-            // cout<<"HAH";
-            break;
+                gcd = i;
+                // cout<<"HAH";
+                break;
             }
         }
     }
-    
-    cout<<gcd;
+
+    cout << gcd;
     return 0;
 }
