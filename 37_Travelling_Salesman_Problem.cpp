@@ -73,7 +73,8 @@ int least(int c)
     takeInput();
     
     cout<<"\n\nThe Path is:\n";
-    mincost(0); //passing 0 because starting vertex
+    mincost(0); 
+    //passing 0 because starting vertex
     
     cout<<"\n\nMinimum cost is "<<cost;
     
