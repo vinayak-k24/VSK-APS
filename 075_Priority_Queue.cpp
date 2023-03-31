@@ -3,7 +3,6 @@ using namespace std;
 
 int main() 
 {
-
   // create a queue of int
   priority_queue<int> numbers;
 
