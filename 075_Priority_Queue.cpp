@@ -20,9 +20,6 @@ int main()
     numbers.pop();
   }
 
-
-  
-
   cout << endl;
 
   return 0;
